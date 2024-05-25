@@ -1880,3 +1880,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional: centers the images horizontally */
+}
+
+.image-container img {
+  margin-bottom: 20px; /* Adds some space between the images */
+}
